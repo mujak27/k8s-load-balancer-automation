@@ -1,5 +1,3 @@
-Your current README is clear and concise, but you can enhance it to provide more context and information. Here's an improved version of your README.md:
-
 # Kubernetes Load Balancer Configuration Automation
 
 This script automates the configuration of Kubernetes Load Balancers using a combination of Ansible and Python scripting.
