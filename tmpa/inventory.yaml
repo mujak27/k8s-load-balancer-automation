@@ -1,9 +1,0 @@
-[master-lb]
-{$IP-LOAD-BALANCER-1} ansible_user=na
-
-[slave-lb]
-{$IP-LOAD-BALANCER-2} ansible_user=na
-
-[loadbalancers]
-{$IP-LOAD-BALANCER-1} ansible_user=na
-{$IP-LOAD-BALANCER-2} ansible_user=na
