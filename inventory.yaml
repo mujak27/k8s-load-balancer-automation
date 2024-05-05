@@ -1,9 +1,15 @@
+[all:vars]
+ansible_connection={$ANSIBLE_CONNECTION}
+ansible_user={$ANSIBLE_USER}
+ansible_ssh_pass={$ANSIBLE_SSH_PASS}
+ansible_sudo_pass={$ANSIBLE_SUDO_PASS}
+
 [master-lb]
-{$IP-LOAD-BALANCER-1} ansible_user=na
+{$IP-LOAD-BALANCER-1}
 
 [slave-lb]
-{$IP-LOAD-BALANCER-2} ansible_user=na
+{$IP-LOAD-BALANCER-2}
 
 [loadbalancers]
-{$IP-LOAD-BALANCER-1} ansible_user=na
-{$IP-LOAD-BALANCER-2} ansible_user=na
+{$IP-LOAD-BALANCER-1}
+{$IP-LOAD-BALANCER-2}
