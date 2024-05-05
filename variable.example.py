@@ -6,4 +6,11 @@ variables = {
     "$IP-CONTROL-PLANE-1":      "192.168.1.1",
     "$IP-CONTROL-PLANE-2":      "192.168.1.2",
     "$IP-CONTROL-PLANE-3":      "192.168.1.3",
+    "$USER":                    "user",
+    "$ANSIBLE_CONNECTION":      "ssh",
+    "$ANSIBLE_USER":            "user",
+    "$ANSIBLE_SSH_PASS":        "user",
+    "$ANSIBLE_SUDO_PASS":       "user",
+    "$NETWORK_INTERFACE":       "eth0",
 }
+
